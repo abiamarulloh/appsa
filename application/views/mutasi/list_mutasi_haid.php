@@ -22,7 +22,7 @@
                             </select>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-block">Lihat data Haid Murid</button>
+                        <button type="submit" class="btn btn-primary btn-block mb-2">Lihat data Haid Murid</button>
                         <a href="<?= base_url("mutasi") ?>" class="btn btn-outline-secondary btn-block">Kembali</a>
 
                     </form>

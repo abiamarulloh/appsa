@@ -35,9 +35,9 @@
     <!-- Google Fonts -->
     <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">-->
     <!-- Bootstrap core CSS -->
-    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- Material Design Bootstrap -->
-    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
 
     <style>
     /* 
@@ -102,6 +102,23 @@
 
 
     }
+
+    /*css3 design scrollbar*/
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+        background-color: #d6f5f4 ;    
+
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(rgb(0, 204, 255), rgb(0, 132, 255));
+        border-radius:100px;
+    }
+
     </style>
 
 </head>

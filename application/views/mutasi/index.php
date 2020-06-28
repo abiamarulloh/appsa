@@ -17,11 +17,11 @@
                     <?= $this->session->flashdata("info-mutasi") ?>
                     <a href="<?= base_url('mutasi/mutasi_security'); ?>" class="btn btn-primary btn-block mb-2" onclik="return prompt()">Mutasi Semua Murid Saat Ini</a>
 
-                    <a href="<?= base_url('mutasi/list_mutasi'); ?>" class="btn btn-primary btn-block">Daftar Murid "Lulus"  </a>
+                    <a href="<?= base_url('mutasi/list_mutasi'); ?>" class="btn btn-primary btn-block mb-2">Daftar Murid "Lulus"  </a>
 
-                    <a href="<?= base_url('mutasi/list_mutasi_haid'); ?>" class="btn btn-primary btn-block">Daftar Murid "Haid"  </a>
+                    <a href="<?= base_url('mutasi/list_mutasi_haid'); ?>" class="btn btn-primary btn-block mb-2">Daftar Murid "Haid"  </a>
 
-                    <a href="<?= base_url('mutasi/hapus_daftar_mutasi'); ?>" class="btn btn-danger btn-block ">Hapus Daftar Murid  </a>
+                    <a href="<?= base_url('mutasi/hapus_daftar_mutasi'); ?>" class="btn btn-danger btn-block mb-2">Hapus Daftar Murid  </a>
                     
                 </div>
             </div>

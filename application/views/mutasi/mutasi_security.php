@@ -18,7 +18,7 @@
 
                         <!-- <div class="clearfix"></div> -->
 
-                        <button type="submit" class="btn btn-primary btn-block">Lanjutkan</button>
+                        <button type="submit" class="btn btn-primary btn-block mb-2">Lanjutkan</button>
                         
                         <a href="<?= base_url("mutasi"); ?>" class="btn btn-block btn-outline-secondary">Kembali</a>
 

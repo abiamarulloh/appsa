@@ -24,7 +24,7 @@
                             <?= form_error("date_graduation", "<small class='badge badge-danger text-wrap'>" , "</small>"); ?>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-block">Lanjutkan</button>
+                        <button type="submit" class="btn btn-primary btn-block mb-2">Lanjutkan</button>
                         <a href="<?= base_url("mutasi/action_mutasi") ?>" class="btn btn-outline-secondary btn-block">Kembali</a>
                     </form>
                 </div>

@@ -161,7 +161,7 @@
                 </div>
 
                 <br>
-                <button type="submit" class="btn btn-block btn-primary" onclick="return confirm('Apakah anda yakin ingin Melanjutkan Mutasi ini ? ')">Mutasi Seluruh Murid </button>
+                <button type="submit" class="btn btn-block btn-primary mb-2" onclick="return confirm('Apakah anda yakin ingin Melanjutkan Mutasi ini ? ')">Mutasi Seluruh Murid </button>
                 <a href="<?= base_url("mutasi/logout_mutasi") ?>" class="btn btn-outline-secondary btn-block">Kembali</a>
             </form>    
 
