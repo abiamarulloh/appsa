@@ -1,0 +1,46 @@
+
+
+.card-login{
+    position: relative;
+}
+
+.bg-login{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bg-img-edit{
+    position: relative;
+    background-image: url("../../../assets/sbadmin2/img/almuin.jpeg");
+}
+
+.bg-body{
+    background-color: black;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+
+.rounded-pill-left{
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
+
+.rounded-pill-right{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.bg-orange{
+    background-color: #ff7f50;
+}
+
